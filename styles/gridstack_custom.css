@@ -1,0 +1,143 @@
+    .grid-stack {
+        background-color: transparent;
+        min-height: 30px;
+    }
+    .grid-stack-item {
+        background-color: #aaa;
+    }
+    .ui-resizable-e {
+        background-color: rgba(249, 173, 24, 1);
+    }
+    .ui-resizable-w {
+        background-color: rgba(249, 173, 24, 1);
+    }
+    .grid-stack-item[data-gs-locked] {
+        background-color: rgba(249, 173, 24, 1);
+        color: #fff;
+    }
+    .grid-stack .grid-stack-item .grid-stack-item-content {
+        padding: 5px 20px;
+        color: #fff;
+    }
+    .grid-stack.grid-stack-header .grid-stack-item .grid-stack-item-content {
+        color: #000;
+    }
+    .grid-stack .grid-stack-item .grid-stack-item-content a {
+        text-decoration: none;
+    }     
+    .grid-stack .grid-stack-item .grid-stack-item-content a span {
+        text-decoration: none;
+        width: auto;
+        display: inline-block;
+    }     
+    .grid-stack .grid-stack-item .grid-stack-item-content .padlock {
+        position: absolute;
+        top: 4px; 
+        right: 10px; 
+        width: 20px; 
+        height: 20px;
+    }    
+    .grid-stack .grid-stack-item .grid-stack-item-content .linkedtable {
+        display: inline-block;
+        position: relative;
+        width: 15px;
+        margin-left: 4px;
+        margin-top: 2px;
+        vertical-align: top;
+    }
+    .grid-stack .grid-stack-item .grid-stack-item-content a:hover {
+        cursor: pointer;
+    }
+    .grid-stack-header {
+        margin-bottom: 10px;
+        margin-left: 12px;
+    }
+    .grid-stack-header,
+    .grid-stack-header div {
+        background-color: white;
+        color: #000;
+        height: 22px!important;
+        min-height: 22px!important;
+        padding: 0px;
+        margin: 0px;
+    }
+    .grid-stack-header .grid-stack-item .grid-stack-item-content {
+        vertical-align: bottom;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px;
+        margin-top: 1px;
+    }
+    .grid-stack-header .grid-stack-item:first-child .grid-stack-item-content {
+        position: static!important;
+        text-align: left;
+    }    
+    .grid-stack-header .grid-stack-item:last-child .grid-stack-item-content {
+        position: static!important;
+        text-align: right;
+    }
+    #grid-stack-unallocated .grid-stack-item {
+        width: 100%;
+    }
+    .grid-stack-default {
+        margin-left: 12px;
+    }
+    .grid-stack-default > .grid-stack-item > .ui-resizable-w,
+    .grid-stack-default > .grid-stack-item > .ui-resizable-e {
+        top: 0px;
+        bottom: 0px;
+        display: block!important;
+    }
+    .grid-stack-default > .grid-stack-item > .ui-resizable-w {
+        left: 0px;
+    }
+    .grid-stack-default > .grid-stack-item > .ui-resizable-e {
+        right: 0px;
+    }    
+    .grid-stack-default > .grid-stack-item[data-gs-no-resize='1'] > .ui-resizable-w,
+    .grid-stack-default > .grid-stack-item[data-gs-no-resize='1'] > .ui-resizable-e {
+        top: 0px;
+        bottom: 0px;
+        display: none!important;
+    }
+    .grid-stack-header > .grid-stack-item > .ui-resizable-w,
+    .grid-stack-header > .grid-stack-item > .ui-resizable-e {
+        display: none!important;
+    }
+    .bg-pattern-lunch {
+        height: 50px;
+        width: 100%;
+        background-image: 
+            linear-gradient(
+                to right, 
+                rgba(0,0,0,0.25) 2px, 
+                transparent 2px
+            );
+        background-size: calc(8.33% - 1.1px);
+        background-position: 12px 0px;
+    }
+    /*.bg-pattern-dinner {
+        height: 50px;
+        width: 100%;
+        background-image: 
+            linear-gradient(
+                to right, 
+                rgba(0,0,0,0.25) 2px, 
+                transparent 2px
+            );
+        background-size: calc(6.25% - 0.8px);
+        background-position: 12px 0px;
+    }*/
+    .bg-pattern-dinner {
+        height: 50px;
+        width: 100%;
+        background-image: 
+            linear-gradient(
+                to right, 
+                rgba(0,0,0,0.25) 2px, 
+                transparent 2px
+            );
+        background-size: calc(5% - 0.8px);
+        background-position: 12px 0px;
+    }

@@ -1,0 +1,22 @@
+/*///////////////
+/// TEXT
+*///////////////
+
+.text {
+    &--white { color: $color-white !important; }
+    &--black { color: $color-black !important; }
+    &--light { font-weight: 300 !important; }
+    &--bold { font-weight: 700 !important; }
+    &--italic { font-style: italic !important; }
+    &--underline { text-decoration: underline !important;}
+}
+
+.text-align {
+    &--left { text-align: left; }
+    &--center { text-align: center; }
+    &--right { text-align: right; }
+}
+
+.text-transform--uppercase {
+    text-transform: uppercase;
+}

@@ -1,0 +1,15 @@
+
+
+.tables-list__item {
+
+    & + label {
+        min-width: 30px;
+        text-align: center;
+    }
+
+    &:checked {
+        & + label {
+            background: $color-secondary;
+        }
+    }
+}

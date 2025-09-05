@@ -1,0 +1,10 @@
+/*///////////////
+/// DISPLAY
+*///////////////
+
+.display {
+    &--inline { display: inline; }
+    &--block { display: block; }
+    &--inline-block { display: inline-block; }
+    &--none { display: none !important; }
+}

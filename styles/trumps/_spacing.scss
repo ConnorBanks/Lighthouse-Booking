@@ -1,0 +1,71 @@
+/*///////////////
+/// SPACING
+*///////////////
+
+.padding {
+    &--tiny { padding: $spacing-tiny; }
+    &--small { padding: $spacing-small; }
+    &--normal { padding: $spacing-normal; }
+    &--large { padding: $spacing-large; }
+    &--huge { padding: $spacing-huge; }
+}
+
+.padding-left {
+    &--none { padding-left: 0; }
+    &--tiny { padding-left: $spacing-tiny; }
+    &--small { padding-left: $spacing-small; }
+    &--normal { padding-left: $spacing-normal; }
+    &--large { padding-left: $spacing-large; }
+    &--huge { padding-left: $spacing-huge; }
+}
+
+.padding-top {
+    &--none { padding-top: 0; }
+    &--tiny { padding-top: $spacing-tiny; }
+    &--small { padding-top: $spacing-small; }
+    &--normal { padding-top: $spacing-normal; }
+    &--large { padding-top: $spacing-large; }
+    &--huge { padding-top: $spacing-huge; }
+}
+
+.padding-right {
+    &--none { padding-right: 0; }
+    &--tiny { padding-right: $spacing-tiny; }
+    &--small { padding-right: $spacing-small; }
+    &--normal { padding-right: $spacing-normal; }
+    &--large { padding-right: $spacing-large; }
+    &--huge { padding-right: $spacing-huge; }
+}
+
+.padding-bottom {
+    &--none { padding-bottom: 0; }
+    &--tiny { padding-bottom: $spacing-tiny; }
+    &--small { padding-bottom: $spacing-small; }
+    &--normal { padding-bottom: $spacing-normal; }
+    &--large { padding-bottom: $spacing-large; }
+    &--huge { padding-bottom: $spacing-huge; }
+}
+
+.margin-left {
+    &--tiny { margin-left: $spacing-tiny; }
+    &--small { margin-left: $spacing-small; }
+    &--normal { margin-left: $spacing-normal; }
+    &--large { margin-left: $spacing-large; }
+    &--huge { margin-left: $spacing-huge; }
+}
+
+.margin-bottom {
+    &--none { margin-bottom: 0; }
+    &--tiny { margin-bottom: $spacing-tiny; }
+    &--small { margin-bottom: $spacing-small; }
+    &--normal { margin-bottom: $spacing-normal; }
+    &--large { margin-bottom: $spacing-large; }
+    &--huge { margin-bottom: $spacing-huge; }
+}
+
+.margin-auto {
+    &--left { margin-left: auto; }
+    &--top { margin-top: auto; }
+    &--right { margin-right: auto; }
+    &--bottom { margin-bottom: auto; }
+}

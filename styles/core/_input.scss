@@ -1,0 +1,22 @@
+/*///////////////
+/// INPUT
+*///////////////
+
+input, select {
+    width: 100%;
+    display: block;
+    margin-bottom: $spacing-normal;
+    padding: $spacing-small;
+    box-shadow: inset 0px 0px 10px rgba($color-black, 0.15);
+    border-radius: 3.5px;
+    border: 0.5px solid rgba($color-black, 0.35);
+}
+
+input[type=date] {
+    padding: #{$spacing-small - 1};
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    width: auto;
+}

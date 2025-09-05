@@ -1,0 +1,31 @@
+/*///////////////
+/// BORDER
+*///////////////
+
+.border {
+    border-style: solid;
+
+    &--none { border-width: 0px; }
+    &--tiny { border-width: 1px; }
+    &--small { border-width: 2px; }
+    &--normal { border-width: 3px; }
+    &--large { border-width: 5px; }
+    &--huge { border-width: 10px; }
+
+    &-right { border-right-style: solid; }
+    &-right--none { border-right-width: 0px; }
+    &-right--tiny { border-right-width: 1px; }
+    &-right--small { border-right-width: 2px; }
+    &-right--normal { border-right-width: 3px; }
+    &-right--large { border-right-width: 5px; }
+    &-right--huge { border-right-width: 10px; }
+}
+
+.border-color {
+    &--black { border-color: $color-black; }
+    &--black-fade { border-color: rgba($color-black, 0.2); }
+}
+
+.border--curved {
+    border-radius: 3px;
+}

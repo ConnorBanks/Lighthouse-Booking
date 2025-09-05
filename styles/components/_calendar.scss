@@ -1,0 +1,24 @@
+/*///////////////
+/// CALENDAR
+*///////////////
+
+.calendar-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.calendar__row {
+    cursor: move;
+    width: 160px;
+    height: 21px !important;
+    top: 0 !important;
+}
+
+.calendar__info {
+    cursor: pointer;
+}
+
+[aria-describedby="schedule-form"] {
+    z-index: 100;
+}

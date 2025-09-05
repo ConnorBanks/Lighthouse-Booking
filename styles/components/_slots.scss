@@ -1,0 +1,33 @@
+/*///////////////
+/// SLOTS
+*///////////////
+
+.slots {
+    margin-bottom: $spacing-normal;
+
+    &:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+}
+
+.slot-item {
+    text-align: center;
+    float: left;
+    width: 45%;
+    padding: $spacing-small;
+    margin-right: 5%;
+    margin-bottom: $spacing-tiny;
+    border-radius: $spacing-tiny;
+
+    @include bp-min-width($bp-small-medium) {
+        margin-right: $spacing-tiny;
+        width: 20%;
+
+        &--tiny {
+            width: 9%;
+        }
+
+    }
+}

@@ -1,0 +1,48 @@
+/*///////////////
+/// BACKGROUND
+*///////////////
+
+.background-image--cover {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image--fixed {
+    background-attachment: fixed;
+}
+
+
+
+
+.background--grey {
+    background-color: $color-grey;
+}
+
+.background--grey-dark {
+    background-color: darken($color-grey, 5%);
+}
+
+.background--grey-light {
+    background-color: $color-grey-light;
+}
+
+.background--grey-transparent {
+    background-color: rgba($color-grey, 0.95);
+}
+
+.background--white {
+    background-color: $color-white;
+}
+
+.background--black {
+    background-color: $color-black;
+}
+
+.background--primary {
+    background-color: $color-primary;
+}
+
+.background--secondary {
+    background-color: $color-secondary;
+}

@@ -1,0 +1,19 @@
+/*///////////////
+/// MIN-SIZE
+*///////////////
+
+.min-width {
+    &--tiny { min-width: $spacing-tiny; }
+    &--small { min-width: $spacing-small; }
+    &--normal { min-width: $spacing-normal; }
+    &--large { min-width: $spacing-large; }
+    &--huge { min-width: $spacing-huge; }
+
+    &--200 { min-width: 200px; }
+    &--400 { min-width: 400px; }
+    &--600 { min-width: 600px; }
+    &--800 { min-width: 800px; }
+    &--1000 { min-width: 1000px; }
+
+    &--100 { width: 100%; }
+}

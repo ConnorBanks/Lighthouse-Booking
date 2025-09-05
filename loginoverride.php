@@ -1,0 +1,1 @@
+<?php $override_datetime_str = strtotime(date("Y-m-d H:i:s", filemtime('loginoverride.php')) . " +1 hour"); ?>

@@ -1,0 +1,15 @@
+/*///////////////
+/// JQ ACCORDION
+*///////////////
+
+.ui-accordion-header {
+    background-color: $color-black;
+    color: $color-white;
+    text-align: center;
+    padding: $spacing-small;
+    margin-bottom: 1px;
+}
+
+.ui-accordion-content {
+    padding: $spacing-normal;
+}

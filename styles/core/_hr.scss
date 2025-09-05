@@ -1,0 +1,15 @@
+/*///////////////
+/// HR
+*///////////////
+
+hr {
+    height: 1px;
+    background-color: white;
+    border: 0;
+    margin-bottom: $spacing-normal;
+}
+
+.hr {
+    &--large { height: 2px; }
+    &--huge { height: 4px; }
+}

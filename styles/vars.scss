@@ -1,0 +1,36 @@
+/*///////////////
+/// VARS
+*///////////////
+
+/* /// COLOURS /// */
+
+$color-primary: #faae18;
+$color-secondary: #c33;
+
+$color-black: #212121;
+$color-grey: #363636;
+$color-grey-light: lighten($color-grey, 15%);
+$color-grey-lightest: lighten($color-grey, 65%);
+$color-white: #fefefe;
+
+
+/* /// BREAKPOINT UNITS /// */
+
+$bp-tiny: 320px;
+$bp-small: 480px;
+$bp-small-medium: 620px;
+$bp-medium: 768px;
+$bp-medium-large: 1024px;
+$bp-large: 1280px;
+$bp-largest: 1440px;
+$bp-huge: 1920px;
+
+
+/* /// SPACING UNITS /// */
+
+$spacing-normal: 20px;
+
+$spacing-tiny: $spacing-normal/4;
+$spacing-small: $spacing-normal/2;
+$spacing-large: $spacing-normal*2;
+$spacing-huge: $spacing-normal*4;

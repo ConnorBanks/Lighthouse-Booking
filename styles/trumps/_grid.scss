@@ -1,0 +1,70 @@
+/*///////////////
+/// GRID
+*///////////////
+
+.grid {
+    margin-bottom: $spacing-normal;
+    font-size: 0;
+
+    [class*='col-'] {
+        display: inline-block;
+    }
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col {
+        width: 100%;
+        font-size: 1rem;
+        vertical-align: bottom;
+    }
+
+    .col--vertical-top {
+        vertical-align: top;
+    }
+
+    @include bp-min-width($bp-medium) {
+
+        .col {
+            padding-right: $spacing-small;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .col-1-2 {
+            width: 50%;
+
+            &:nth-child(odd) {
+                padding-right: $spacing-normal;
+            }
+
+            &:nth-child(even) {
+                padding-left: $spacing-normal;
+                padding-right: 0;
+            }
+        }
+
+        .col-2-3 {
+            width: 66.66%;
+        }
+        .col-1-3 {
+            width: 33.33%;
+        }
+
+        .col-3-4 {
+            width: 75%;
+        }
+        .col-2-4 {
+            width: 50%;
+        }
+        .col-1-4 {
+            width: 25%;
+        }
+
+    }
+}

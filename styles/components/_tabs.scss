@@ -1,0 +1,31 @@
+/*///////////////
+/// TABS
+*///////////////
+
+.tabs {
+    margin-bottom: $spacing-normal;
+}
+
+.tab {
+    color: $color-white;
+    background-color: $color-grey-light;
+    transition: 0.4s background-color;
+    padding: $spacing-small 0;
+
+
+    @include active-states() {
+        background-color: $color-black;
+    }
+
+    &--current {
+        background-color: $color-black;
+    }
+
+    a {
+        padding: $spacing-small $spacing-normal;
+    }
+}
+
+.ui-tabs-active {
+    background-color: $color-black;
+}

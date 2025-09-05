@@ -1,0 +1,28 @@
+/*///////////////
+/// POSITION
+*///////////////
+
+.position {
+    &--absolute { position: absolute; }
+    &--fixed { position: fixed; }
+    &--relative { position: relative; }
+
+    &--top { top: 0; }
+    &--right { right: 0; }
+    &--bottom { bottom: 0; }
+    &--left { left: 0; }
+}
+
+.vertical-align {
+    &--bottom { vertical-align: bottom !important; }
+    &--middle { vertical-align: middle !important; }
+}
+
+.rezisable {
+    &--none { resize: none; }
+}
+
+.float {
+    &--right { float:right; }
+    &--left { float:left; }
+}

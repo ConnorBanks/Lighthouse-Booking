@@ -1,0 +1,13 @@
+/*///////////////
+/// CONTAINER
+*///////////////
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+
+    @include bp-min-width($bp-small-medium) {
+        padding: $spacing-huge 0;
+    }
+}

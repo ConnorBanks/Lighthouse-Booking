@@ -1,0 +1,12 @@
+/*///////////////
+/// TEXTAREA
+*///////////////
+
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: $spacing-normal;
+    padding: $spacing-tiny;
+    resize: vertical;
+    max-height: 200px;
+}

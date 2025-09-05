@@ -1,0 +1,10 @@
+/*///////////////
+/// LABEL
+*///////////////
+
+label {
+    width: 100%;
+    display: block;
+    margin-bottom: $spacing-small;
+    @include rem(font-size, 11px);
+}

@@ -1,0 +1,37 @@
+/*///////////////
+/// ICONS
+*///////////////
+
+.icon {
+
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center center;
+    display: inline-block;
+
+    &--small {
+        width: 25px;
+        height: 25px;
+        background-size: 25px 25px;
+    }
+
+    &--cancel { background-image: url('images/cancel.png'); }
+    &--cancel-grey { background-image: url('images/cancel-grey.png'); }
+    &--calendar { background-image: url('images/calendar.png'); }
+    &--chat { background-image: url('images/chat.png'); }
+    &--edit { background-image: url('images/edit.png'); }
+    &--globe { background-image: url('images/globe.png'); }
+    &--facebook { background-image: url('images/facebook.png'); }
+    &--instagram { background-image: url('images/instagram.png'); }
+    &--link { background-image: url('images/link.png'); }
+    &--return { background-image: url('images/return.png'); }
+    &--return-grey { background-image: url('images/return-grey.png'); }
+    &--rows { background-image: url('images/three-rows.png'); }
+    &--rows-short { background-image: url('images/three-rows-short.png'); }
+    &--search { background-image: url('images/search.png'); }
+    &--settings { background-image: url('images/settings.png'); }
+    &--twitter { background-image: url('images/twitter.png'); }
+
+}

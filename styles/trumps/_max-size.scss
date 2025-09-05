@@ -1,0 +1,32 @@
+/*///////////////
+/// MAX-SIZE
+*///////////////
+
+.max-width {
+    &--tiny { max-width: $spacing-tiny; }
+    &--small { max-width: $spacing-small; }
+    &--normal { max-width: $spacing-normal; }
+    &--large { max-width: $spacing-large; }
+    &--huge { max-width: $spacing-huge; }
+
+    &--200 { max-width: 200px; }
+    &--400 { max-width: 400px; }
+    &--600 { max-width: 600px; }
+    &--800 { max-width: 800px; }
+    &--1000 { max-width: 1000px; }
+
+    &--100 { max-width: 100%; }
+}
+
+.max-height {
+    &--tiny { max-height: $spacing-tiny; }
+    &--small { max-height: $spacing-small; }
+    &--normal { max-height: $spacing-normal; }
+    &--large { max-height: $spacing-large; }
+    &--huge { max-height: $spacing-huge; }
+}
+
+.width {
+    &--auto { width: auto; }
+    &--200 { width: 200px; }
+}

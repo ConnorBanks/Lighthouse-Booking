@@ -1,0 +1,35 @@
+/*///////////////
+/// BUTTON
+*///////////////
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    display: block;
+    overflow: visible;
+
+    width: 100%;
+    margin-bottom: $spacing-normal;
+
+    cursor: pointer;
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+
+    border: 0;
+    background: none;
+    background-color: $color-primary;
+
+    font: inherit;
+    line-height: normal;
+
+    @include rem(font-size, 12px);
+    -webkit-appearance: button; /* for input */
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    padding: 0;
+
+    border: 0;
+}
